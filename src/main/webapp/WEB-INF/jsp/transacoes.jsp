@@ -19,6 +19,7 @@
 				<input name="ticker" class="form-control">
 			</div>
 			
+			
 			<div class="form-group">
 				<label>PRECO</label>
 				<input name="preco" class="form-control">

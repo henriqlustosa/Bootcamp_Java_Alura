@@ -4,7 +4,7 @@ import java.sql.DriverManager;
 
 public class ConnectionFactory {
 	public Connection getConnection() {
-		String url = "jdbc:postgresql://localhost:5433/carteira";
+		String url = "jdbc:postgresql://localhost:5432/carteira";
 		String username = "postgres";
 		String password = "AMam@!12";
 
