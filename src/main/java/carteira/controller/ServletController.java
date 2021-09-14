@@ -13,11 +13,10 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+
 import carteira.dao.TransacaoDao;
 import carteira.factory.ConnectionFactory;
-import carteira.modelo.TipoTransacao;
-import carteira.modelo.Transacao;
-
+import carteira.modelo.*;
 @WebServlet("/transacoes")
 public class ServletController extends HttpServlet {
 	

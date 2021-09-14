@@ -6,13 +6,12 @@ import java.sql.SQLException;
 import java.util.List;
 
 import carteira.dao.TransacaoDao;
-import carteira.modelo.Transacao;
-
+import carteira.modelo.*;
 public class TesteSelectedJDBC {
 
 	public static void main(String[] args) {
 	try {
-		String url = "jdbc:postgresql://localhost:5432/carteira";
+		String url = "jdbc:postgresql://localhost:5433/carteira";
 		String username = "postgres";
 		String password = "AMam@!12";
 		Connection conexao = DriverManager.getConnection(url,username,password);

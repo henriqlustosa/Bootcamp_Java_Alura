@@ -6,7 +6,7 @@ import java.time.LocalDate;
 public class Transacao {
 
 	private String ticker;
-	
+
 	private BigDecimal preco;
 
 	private int quantidade;
@@ -14,16 +14,18 @@ public class Transacao {
 	private LocalDate data;
 
 	private TipoTransacao tipo;
-	
-	
-public Transacao() {};
-	
+
+	public Transacao() {
+	};
+
 	public Transacao(String ticker, BigDecimal preco, int quantidade, LocalDate data, TipoTransacao tipo) {
+		// TODO Auto-generated constructor stub
 		this.ticker = ticker;
 		this.preco = preco;
 		this.quantidade = quantidade;
 		this.data = data;
 		this.tipo = tipo;
+
 	}
 
 	public String getTicker() {
@@ -65,6 +67,7 @@ public Transacao() {};
 	public void setTipo(TipoTransacao tipo) {
 		this.tipo = tipo;
 	}
+
 	@Override
 	public String toString() {
 		return "Transacao [ticker=" + ticker + ", preco=" + preco + ", quantidade=" + quantidade + ", data=" + data
